@@ -6,41 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../First Class/css/bootstrap.min.css">
 
 
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-    <button type="button" class="btn-close" disabled aria-label="Close"></button>
-    <div class="container-fluid justify-content-center">
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand text-light" href="#">
+          <h1 class="">JEE - 64</h1>
+      </a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
 
-      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              <H1>JEE-64</H1>
-            </a>
-          </li>
-
+    <!-- Main Content Start -->
+    <div class="row" style="height: 85vh;">
+      <div class="col-2 bg-info p-0 m-0" style="height: 85vh;">
+        <ul class="list-group">
+          <li><a class="list-group-item" href="../Project/slide.html" target="mycontent">Home</a></li>
+          <li><a class="list-group-item" href="../Project/table.html" target="mycontent">Form</a></li>
+          <li><a class="list-group-item" href="../index.html" target="mycontent">About</a></li>
         </ul>
       </div>
+      <div class="col-10 p-0 m-0" style="height: 75vh;">
+        <iframe name="mycontent" width="100%" style="height: 85vh;" src="" frameborder="0"></iframe>
+      </div>
     </div>
-  </nav>
-  <div class="row" style="height: 80vh;">
-    <div class="col-2 bg-info">
-      <ul class="list-group">
-        <li>Home </li>
-        <li>About </li>
-        <li> Mission</li>
-      </ul>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-warning">
+      <footer class="justify-content-center align-items-center text-center w-100 p-3 m-0 border-top">
+          Powered By © Imran Mia
+      </footer>
     </div>
-  
-    <footer>
-      <p class="text-center text-muted " style="height: 5vh;"> Powered by© Imran Mia</p>
-    </footer>
+    <!-- Footer End -->
     
     <script src="../js/bootstrap.bundle.min.js" />
 
